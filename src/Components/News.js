@@ -52,18 +52,9 @@ const [totalResults, setTotalResults ] = useState(0)
   }, [])
   
 
-  const handlePrevClick = async () => {
-    setPage(page-1)
-    updateNews();
-  };
-
+ 
   
-  const handleNextClick = async () => {
-
-    setPage(page+1)
-
-    updateNews();
-  };
+ 
 
   //This function is used to concatinate the articles after loading a infinite scroller
 
